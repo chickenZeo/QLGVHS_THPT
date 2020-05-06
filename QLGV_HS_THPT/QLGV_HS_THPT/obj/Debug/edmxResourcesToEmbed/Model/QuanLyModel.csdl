@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLGV_HS_THPTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="GiangDay">
+    <Key>
+      <PropertyRef Name="MaGV" />
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="MaGV" Type="Int32" Nullable="false" />
+    <Property Name="MaLop" Type="Int32" Nullable="false" />
+    <Property Name="NgayDay" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GiaoVien" Relationship="Self.FK__GiangDay__MaGV__6A30C649" FromRole="GiangDay" ToRole="GiaoVien" />
+    <NavigationProperty Name="Lop" Relationship="Self.FK__GiangDay__MaLop__6B24EA82" FromRole="GiangDay" ToRole="Lop" />
+  </EntityType>
+  <EntityType Name="GiaoVien">
+    <Key>
+      <PropertyRef Name="MaGV" />
+    </Key>
+    <Property Name="MaGV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoGV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenGV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="QueQuan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="GioiTinh" Type="Boolean" />
+    <Property Name="CMND" Type="Int32" />
+    <Property Name="Luong" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TrangThai" Type="Boolean" />
+    <Property Name="MaMH" Type="Int32" />
+    <NavigationProperty Name="GiangDays" Relationship="Self.FK__GiangDay__MaGV__6A30C649" FromRole="GiaoVien" ToRole="GiangDay" />
+    <NavigationProperty Name="MonHoc" Relationship="Self.FK__GiaoVien__MaMH__5EBF139D" FromRole="GiaoVien" ToRole="MonHoc" />
+  </EntityType>
+  <EntityType Name="HocSinh">
+    <Key>
+      <PropertyRef Name="MaHS" />
+    </Key>
+    <Property Name="MaHS" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoHS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenHS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="QueQuan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="GioiTinh" Type="Boolean" />
+    <Property Name="TrangThai" Type="Boolean" />
+    <Property Name="MaLop" Type="Int32" />
+    <NavigationProperty Name="Lop" Relationship="Self.FK__HocSinh__MaLop__6383C8BA" FromRole="HocSinh" ToRole="Lop" />
+    <NavigationProperty Name="KetQuas" Relationship="Self.FK__KetQua__MaHS__6754599E" FromRole="HocSinh" ToRole="KetQua" />
+  </EntityType>
+  <EntityType Name="KetQua">
+    <Key>
+      <PropertyRef Name="MaMH" />
+      <PropertyRef Name="MaHS" />
+    </Key>
+    <Property Name="MaMH" Type="Int32" Nullable="false" />
+    <Property Name="MaHS" Type="Int32" Nullable="false" />
+    <Property Name="Diem" Type="Double" />
+    <NavigationProperty Name="HocSinh" Relationship="Self.FK__KetQua__MaHS__6754599E" FromRole="KetQua" ToRole="HocSinh" />
+    <NavigationProperty Name="MonHoc" Relationship="Self.FK__KetQua__MaMH__66603565" FromRole="KetQua" ToRole="MonHoc" />
+  </EntityType>
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="MaLop" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaGVCN" Type="Int32" />
+    <Property Name="TenLop" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Khoi" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="SiSo" Type="Int32" />
+    <NavigationProperty Name="GiangDays" Relationship="Self.FK__GiangDay__MaLop__6B24EA82" FromRole="Lop" ToRole="GiangDay" />
+    <NavigationProperty Name="HocSinhs" Relationship="Self.FK__HocSinh__MaLop__6383C8BA" FromRole="Lop" ToRole="HocSinh" />
+  </EntityType>
+  <EntityType Name="MonHoc">
+    <Key>
+      <PropertyRef Name="MaMH" />
+    </Key>
+    <Property Name="MaMH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenMH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTiet" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="GiaoViens" Relationship="Self.FK__GiaoVien__MaMH__5EBF139D" FromRole="MonHoc" ToRole="GiaoVien" />
+    <NavigationProperty Name="KetQuas" Relationship="Self.FK__KetQua__MaMH__66603565" FromRole="MonHoc" ToRole="KetQua" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PassWords" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__GiangDay__MaGV__6A30C649">
+    <End Role="GiaoVien" Type="Self.GiaoVien" Multiplicity="1" />
+    <End Role="GiangDay" Type="Self.GiangDay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GiaoVien">
+        <PropertyRef Name="MaGV" />
+      </Principal>
+      <Dependent Role="GiangDay">
+        <PropertyRef Name="MaGV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GiangDay__MaLop__6B24EA82">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="1" />
+    <End Role="GiangDay" Type="Self.GiangDay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="GiangDay">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GiaoVien__MaMH__5EBF139D">
+    <End Role="MonHoc" Type="Self.MonHoc" Multiplicity="0..1" />
+    <End Role="GiaoVien" Type="Self.GiaoVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonHoc">
+        <PropertyRef Name="MaMH" />
+      </Principal>
+      <Dependent Role="GiaoVien">
+        <PropertyRef Name="MaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HocSinh__MaLop__6383C8BA">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="0..1" />
+    <End Role="HocSinh" Type="Self.HocSinh" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="HocSinh">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__KetQua__MaHS__6754599E">
+    <End Role="HocSinh" Type="Self.HocSinh" Multiplicity="1" />
+    <End Role="KetQua" Type="Self.KetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HocSinh">
+        <PropertyRef Name="MaHS" />
+      </Principal>
+      <Dependent Role="KetQua">
+        <PropertyRef Name="MaHS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__KetQua__MaMH__66603565">
+    <End Role="MonHoc" Type="Self.MonHoc" Multiplicity="1" />
+    <End Role="KetQua" Type="Self.KetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonHoc">
+        <PropertyRef Name="MaMH" />
+      </Principal>
+      <Dependent Role="KetQua">
+        <PropertyRef Name="MaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLGV_HS_THPTEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="GiangDays" EntityType="Self.GiangDay" />
+    <EntitySet Name="GiaoViens" EntityType="Self.GiaoVien" />
+    <EntitySet Name="HocSinhs" EntityType="Self.HocSinh" />
+    <EntitySet Name="KetQuas" EntityType="Self.KetQua" />
+    <EntitySet Name="Lops" EntityType="Self.Lop" />
+    <EntitySet Name="MonHocs" EntityType="Self.MonHoc" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__GiangDay__MaGV__6A30C649" Association="Self.FK__GiangDay__MaGV__6A30C649">
+      <End Role="GiaoVien" EntitySet="GiaoViens" />
+      <End Role="GiangDay" EntitySet="GiangDays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GiangDay__MaLop__6B24EA82" Association="Self.FK__GiangDay__MaLop__6B24EA82">
+      <End Role="Lop" EntitySet="Lops" />
+      <End Role="GiangDay" EntitySet="GiangDays" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GiaoVien__MaMH__5EBF139D" Association="Self.FK__GiaoVien__MaMH__5EBF139D">
+      <End Role="MonHoc" EntitySet="MonHocs" />
+      <End Role="GiaoVien" EntitySet="GiaoViens" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HocSinh__MaLop__6383C8BA" Association="Self.FK__HocSinh__MaLop__6383C8BA">
+      <End Role="Lop" EntitySet="Lops" />
+      <End Role="HocSinh" EntitySet="HocSinhs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__KetQua__MaHS__6754599E" Association="Self.FK__KetQua__MaHS__6754599E">
+      <End Role="HocSinh" EntitySet="HocSinhs" />
+      <End Role="KetQua" EntitySet="KetQuas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__KetQua__MaMH__66603565" Association="Self.FK__KetQua__MaMH__66603565">
+      <End Role="MonHoc" EntitySet="MonHocs" />
+      <End Role="KetQua" EntitySet="KetQuas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
