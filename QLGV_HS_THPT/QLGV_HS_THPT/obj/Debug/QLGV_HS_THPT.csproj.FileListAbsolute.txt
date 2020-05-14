@@ -51,3 +51,31 @@ D:\BTL-k2n3\ThucTapNhom\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_
 D:\BTL-k2n3\ThucTapNhom\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaTTHocSinh.resources
 D:\BTL-k2n3\ThucTapNhom\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaTTHocSinh.resources
 D:\BTL-k2n3\ThucTapNhom\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormStudent.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csprojAssemblyReference.cache
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormGv.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormMain.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormStudent.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Properties.Resources.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangKy.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangNhap.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaGiaoVien.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaTTHocSinh.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemGiaoVien.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemTTHocSinh.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemGiaoVien.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemHocSinh.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemLichGiangDay.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaGiaoVien.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaTTHocSinh.resources
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.GenerateResource.cache
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CoreCompileInputs.cache
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.exe
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.pdb
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe.config
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.pdb
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.dll
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.xml
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete

@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\FormGv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\FormGv.Designer.cs">
+      <DependentUpon>FormGv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controller\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,11 +126,23 @@
     <Compile Include="View\FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\SuaGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SuaGiaoVien.Designer.cs">
+      <DependentUpon>SuaGiaoVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\SuaTTHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\SuaTTHocSinh.Designer.cs">
       <DependentUpon>SuaTTHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ThemGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ThemGiaoVien.Designer.cs">
+      <DependentUpon>ThemGiaoVien.cs</DependentUpon>
     </Compile>
     <Compile Include="View\ThemTTHocSinh.cs">
       <SubType>Form</SubType>
@@ -150,12 +168,21 @@
     <Compile Include="View\TimKiemLichGiangDay.Designer.cs">
       <DependentUpon>TimKiemLichGiangDay.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\XoaGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\XoaGiaoVien.Designer.cs">
+      <DependentUpon>XoaGiaoVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\XoaTTHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\XoaTTHocSinh.Designer.cs">
       <DependentUpon>XoaTTHocSinh.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controller\FormGv.resx">
+      <DependentUpon>FormGv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controller\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,8 +204,14 @@
     <EmbeddedResource Include="View\FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\SuaGiaoVien.resx">
+      <DependentUpon>SuaGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\SuaTTHocSinh.resx">
       <DependentUpon>SuaTTHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ThemGiaoVien.resx">
+      <DependentUpon>ThemGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ThemTTHocSinh.resx">
       <DependentUpon>ThemTTHocSinh.cs</DependentUpon>
@@ -191,6 +224,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\TimKiemLichGiangDay.resx">
       <DependentUpon>TimKiemLichGiangDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\XoaGiaoVien.resx">
+      <DependentUpon>XoaGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\XoaTTHocSinh.resx">
       <DependentUpon>XoaTTHocSinh.cs</DependentUpon>

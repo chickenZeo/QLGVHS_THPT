@@ -46,5 +46,10 @@ namespace QLGV_HS_THPT.Controller
         {
             this.Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
