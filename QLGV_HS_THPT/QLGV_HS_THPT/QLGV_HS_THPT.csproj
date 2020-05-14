@@ -64,6 +64,12 @@
     <Compile Include="Controller\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controller\FormStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller\FormStudent.Designer.cs">
+      <DependentUpon>FormStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\GiangDay.cs">
       <DependentUpon>QuanLyModel.tt</DependentUpon>
     </Compile>
@@ -114,6 +120,18 @@
     <Compile Include="View\FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\SuaTTHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SuaTTHocSinh.Designer.cs">
+      <DependentUpon>SuaTTHocSinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ThemTTHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ThemTTHocSinh.Designer.cs">
+      <DependentUpon>ThemTTHocSinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\TimKiemGiaoVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,8 +150,17 @@
     <Compile Include="View\TimKiemLichGiangDay.Designer.cs">
       <DependentUpon>TimKiemLichGiangDay.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\XoaTTHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\XoaTTHocSinh.Designer.cs">
+      <DependentUpon>XoaTTHocSinh.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controller\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\FormStudent.resx">
+      <DependentUpon>FormStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -150,6 +177,12 @@
     <EmbeddedResource Include="View\FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\SuaTTHocSinh.resx">
+      <DependentUpon>SuaTTHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ThemTTHocSinh.resx">
+      <DependentUpon>ThemTTHocSinh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\TimKiemGiaoVien.resx">
       <DependentUpon>TimKiemGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\TimKiemLichGiangDay.resx">
       <DependentUpon>TimKiemLichGiangDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\XoaTTHocSinh.resx">
+      <DependentUpon>XoaTTHocSinh.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Model\QuanLyModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>

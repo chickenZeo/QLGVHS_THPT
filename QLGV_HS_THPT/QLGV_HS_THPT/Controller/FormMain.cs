@@ -59,5 +59,13 @@ namespace QLGV_HS_THPT.Controller
             Dk.ShowDialog();
             this.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormStudent st = new FormStudent();
+            this.Hide();
+            st.ShowDialog();
+            this.Show();
+        }
     }
 }
