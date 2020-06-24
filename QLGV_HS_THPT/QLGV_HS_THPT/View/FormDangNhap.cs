@@ -28,9 +28,7 @@ namespace QLGV_HS_THPT.View
             this.Show();
         }
 
-       
-
-        private void btDangNhap_Click(object sender, EventArgs e)
+        private void btDangNhap_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -43,8 +41,6 @@ namespace QLGV_HS_THPT.View
                     fm.ShowDialog();
                     this.Close();
                 }
-
-
             }
             catch (Exception ex) { MessageBox.Show("" + ex.Message); }
         }

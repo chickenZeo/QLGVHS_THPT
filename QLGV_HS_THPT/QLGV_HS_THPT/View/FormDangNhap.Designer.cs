@@ -60,7 +60,6 @@
             this.textBoxPassWord.Size = new System.Drawing.Size(246, 36);
             this.textBoxPassWord.TabIndex = 3;
             this.textBoxPassWord.UseSystemPasswordChar = true;
-            this.textBoxPassWord.TextChanged += new System.EventHandler(this.btDangNhap_Click);
             // 
             // label4
             // 
@@ -209,7 +208,7 @@
             this.btDangNhap.TabIndex = 13;
             this.btDangNhap.Text = "Đăng Nhập";
             this.btDangNhap.UseVisualStyleBackColor = false;
-            this.btDangNhap.Click += new System.EventHandler(this.btDangNhap_Click);
+            this.btDangNhap.Click += new System.EventHandler(this.btDangNhap_Click_1);
             // 
             // button2
             // 
