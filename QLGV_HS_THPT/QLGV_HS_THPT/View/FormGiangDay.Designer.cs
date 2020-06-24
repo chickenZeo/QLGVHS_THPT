@@ -65,6 +65,7 @@
             this.Bt_Xoa.TabIndex = 19;
             this.Bt_Xoa.Text = "Xóa";
             this.Bt_Xoa.UseVisualStyleBackColor = false;
+            this.Bt_Xoa.Click += new System.EventHandler(this.Bt_Xoa_Click_1);
             // 
             // bt_Sua
             // 
@@ -76,6 +77,7 @@
             this.bt_Sua.TabIndex = 18;
             this.bt_Sua.Text = "Sửa";
             this.bt_Sua.UseVisualStyleBackColor = false;
+            this.bt_Sua.Click += new System.EventHandler(this.bt_Sua_Click_1);
             // 
             // bt_Them
             // 
@@ -87,6 +89,7 @@
             this.bt_Them.TabIndex = 17;
             this.bt_Them.Text = "Thêm";
             this.bt_Them.UseVisualStyleBackColor = false;
+            this.bt_Them.Click += new System.EventHandler(this.bt_Them_Click_1);
             // 
             // groupBox1
             // 
@@ -166,6 +169,7 @@
             this.dtgr.RowTemplate.Height = 24;
             this.dtgr.Size = new System.Drawing.Size(800, 243);
             this.dtgr.TabIndex = 15;
+            this.dtgr.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgr_CellContentClick_1);
             // 
             // FormGiangDay
             // 
