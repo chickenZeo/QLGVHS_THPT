@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label9 = new System.Windows.Forms.Label();
             this.Bt_Xoa = new System.Windows.Forms.Button();
             this.bt_Sua = new System.Windows.Forms.Button();
             this.bt_Them = new System.Windows.Forms.Button();
@@ -39,46 +40,53 @@
             this.txt_MaGV = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dtgr = new System.Windows.Forms.DataGridView();
-            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgr)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(468, 276);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(77, 18);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "Tìm kiếm";
             // 
             // Bt_Xoa
             // 
             this.Bt_Xoa.BackColor = System.Drawing.Color.MediumAquamarine;
             this.Bt_Xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bt_Xoa.Location = new System.Drawing.Point(307, 249);
+            this.Bt_Xoa.Location = new System.Drawing.Point(307, 272);
             this.Bt_Xoa.Name = "Bt_Xoa";
             this.Bt_Xoa.Size = new System.Drawing.Size(86, 27);
-            this.Bt_Xoa.TabIndex = 13;
+            this.Bt_Xoa.TabIndex = 19;
             this.Bt_Xoa.Text = "Xóa";
             this.Bt_Xoa.UseVisualStyleBackColor = false;
-            this.Bt_Xoa.Click += new System.EventHandler(this.Bt_Xoa_Click);
             // 
             // bt_Sua
             // 
             this.bt_Sua.BackColor = System.Drawing.Color.MediumAquamarine;
             this.bt_Sua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_Sua.Location = new System.Drawing.Point(164, 249);
+            this.bt_Sua.Location = new System.Drawing.Point(164, 272);
             this.bt_Sua.Name = "bt_Sua";
             this.bt_Sua.Size = new System.Drawing.Size(86, 27);
-            this.bt_Sua.TabIndex = 12;
+            this.bt_Sua.TabIndex = 18;
             this.bt_Sua.Text = "Sửa";
             this.bt_Sua.UseVisualStyleBackColor = false;
-            this.bt_Sua.Click += new System.EventHandler(this.bt_Sua_Click);
             // 
             // bt_Them
             // 
             this.bt_Them.BackColor = System.Drawing.Color.MediumAquamarine;
             this.bt_Them.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_Them.Location = new System.Drawing.Point(36, 249);
+            this.bt_Them.Location = new System.Drawing.Point(36, 272);
             this.bt_Them.Name = "bt_Them";
             this.bt_Them.Size = new System.Drawing.Size(86, 27);
-            this.bt_Them.TabIndex = 11;
+            this.bt_Them.TabIndex = 17;
             this.bt_Them.Text = "Thêm";
             this.bt_Them.UseVisualStyleBackColor = false;
-            this.bt_Them.Click += new System.EventHandler(this.bt_Them_Click);
             // 
             // groupBox1
             // 
@@ -88,10 +96,10 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txt_MaGV);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 282);
+            this.groupBox1.Location = new System.Drawing.Point(12, 305);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(757, 122);
-            this.groupBox1.TabIndex = 10;
+            this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin giảng dạy";
             // 
@@ -156,26 +164,14 @@
             this.dtgr.Location = new System.Drawing.Point(0, 0);
             this.dtgr.Name = "dtgr";
             this.dtgr.RowTemplate.Height = 24;
-            this.dtgr.Size = new System.Drawing.Size(783, 243);
-            this.dtgr.TabIndex = 9;
-            this.dtgr.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgr_CellContentClick);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(468, 253);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(77, 18);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Tìm kiếm";
+            this.dtgr.Size = new System.Drawing.Size(800, 243);
+            this.dtgr.TabIndex = 15;
             // 
             // FormGiangDay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 412);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.Bt_Xoa);
             this.Controls.Add(this.bt_Sua);
@@ -194,6 +190,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button Bt_Xoa;
         private System.Windows.Forms.Button bt_Sua;
         private System.Windows.Forms.Button bt_Them;
@@ -205,6 +203,5 @@
         private System.Windows.Forms.TextBox txt_MaGV;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dtgr;
-        private System.Windows.Forms.Label label9;
     }
 }

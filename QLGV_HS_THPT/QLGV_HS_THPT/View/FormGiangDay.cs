@@ -17,6 +17,7 @@ namespace QLGV_HS_THPT.View
         {
             InitializeComponent();
         }
+
         SqlConnection con = new SqlConnection("server = DESKTOP-1HGH8ER\\SQLEXPRESS;database = QLGV_HS_THPT; integrated security = SSPI");
         private void HienThi(string truyvan)
         {
@@ -54,7 +55,7 @@ namespace QLGV_HS_THPT.View
         {
             con.Open();
             SqlCommand cd = con.CreateCommand(); // Tu nguon cua sql tao 1 command
-            cd.CommandText = "update GiangDay set MaLop= N'" + txt_MaLop.Text + "', NgayDay = '" + dtime_NgayDay.Text +"' where MaGV ='" + txt_MaGV.Text + "'";
+            cd.CommandText = "update GiangDay set MaLop= N'" + txt_MaLop.Text + "', NgayDay = '" + dtime_NgayDay.Text + "' where MaGV ='" + txt_MaGV.Text + "'";
             cd.ExecuteNonQuery();
             con.Close();
             HienThi("select * from GiangDay");
@@ -71,3 +72,4 @@ namespace QLGV_HS_THPT.View
         }
     }
 }
+
