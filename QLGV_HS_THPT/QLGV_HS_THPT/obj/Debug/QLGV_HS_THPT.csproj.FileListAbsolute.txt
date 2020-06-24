@@ -79,3 +79,32 @@ C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.xml
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.xml
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe.config
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.pdb
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.dll
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.dll
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.xml
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.xml
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csprojAssemblyReference.cache
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormGv.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormMain.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormStudent.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Properties.Resources.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangKy.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangNhap.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaGiaoVien.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaTTHocSinh.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemGiaoVien.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemTTHocSinh.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemGiaoVien.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemHocSinh.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemLichGiangDay.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaGiaoVien.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaTTHocSinh.resources
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.GenerateResource.cache
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CoreCompileInputs.cache
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.exe
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.pdb
+E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormGiangDay.resources
