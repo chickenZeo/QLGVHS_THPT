@@ -75,5 +75,10 @@ namespace QLGV_HS_THPT.Controller
             add.ShowDialog();
             this.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

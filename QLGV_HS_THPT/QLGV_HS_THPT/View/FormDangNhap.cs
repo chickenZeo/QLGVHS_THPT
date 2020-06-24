@@ -17,6 +17,7 @@ namespace QLGV_HS_THPT.View
         public FormDangNhap()
         {
             InitializeComponent();
+            textBoxPassWord.PasswordChar = '*';
         }
 
         private void labelDangKy_Click(object sender, EventArgs e)
@@ -27,12 +28,13 @@ namespace QLGV_HS_THPT.View
             this.Show();
         }
 
-        private void btDangNhap_Click(object sender, EventArgs e)
+        private void btDangNhap_Click_1(object sender, EventArgs e)
         {
             try
             {
-                User resUser = db.Users.SingleOrDefault(x => x.UserName == textBoxUserName.Text && x.PassWords == textBoxPassWord.Text);
-                if(resUser!=null)
+                User resUser = db.Users.SingleOrDefault(x => x.UserName == textBoxUserName.Text
+                    && x.PassWords == textBoxPassWord.Text);
+                if (resUser != null)
                 {
                     FormMain fm = new FormMain();
                     this.Hide();
@@ -40,7 +42,7 @@ namespace QLGV_HS_THPT.View
                     this.Close();
                 }
             }
-            catch(Exception ex) { MessageBox.Show("" + ex.Message); }
+            catch (Exception ex) { MessageBox.Show("" + ex.Message); }
         }
     }
 }

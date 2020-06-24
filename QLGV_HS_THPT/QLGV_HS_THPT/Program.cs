@@ -18,7 +18,7 @@ namespace QLGV_HS_THPT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new FormDangNhap());
         }
     }
 }
