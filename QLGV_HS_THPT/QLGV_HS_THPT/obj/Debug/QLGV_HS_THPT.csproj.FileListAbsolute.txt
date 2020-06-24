@@ -79,3 +79,31 @@ C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.xml
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.xml
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe.config
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.pdb
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.dll
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.dll
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.xml
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.xml
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csprojAssemblyReference.cache
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormGv.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormMain.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormStudent.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Properties.Resources.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangKy.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangNhap.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaGiaoVien.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaTTHocSinh.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemGiaoVien.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemTTHocSinh.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemGiaoVien.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemHocSinh.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemLichGiangDay.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaGiaoVien.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaTTHocSinh.resources
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.GenerateResource.cache
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CoreCompileInputs.cache
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.exe
+E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.pdb

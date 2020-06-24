@@ -51,5 +51,12 @@ namespace QLGV_HS_THPT.Controller
         {
 
         }
+
+        private void buttonTimKiem_Click(object sender, EventArgs e)
+        {
+            TimKiemHocSinh tkhs = new TimKiemHocSinh();
+            this.Hide();
+            tkhs.ShowDialog();
+        }
     }
 }

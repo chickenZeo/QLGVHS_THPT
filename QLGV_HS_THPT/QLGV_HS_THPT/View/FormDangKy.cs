@@ -23,25 +23,40 @@ namespace QLGV_HS_THPT.View
         {
             try
             {
-                if(MessageBox.Show("Bạn có muốn đăng ký tài khoản mới không?","Thông báo",MessageBoxButtons.YesNo)
-                    == System.Windows.Forms.DialogResult.Yes)
-                {
-                    User resUser = db.Users.SingleOrDefault(x => x.UserName == textBoxUserName.Text);
-                    if (resUser == null)
+                    if (String.IsNullOrEmpty(textBoxEmail.Text))
                     {
-                        User newUser = TaoUser();
-                        db.Users.Add(newUser);
-                        db.SaveChanges();
-                        MessageBox.Show("Chúc mừng bạn đã đăng ký thành công!", "Thông báo");
-                        FormDangNhap DN = new FormDangNhap();
-                        this.Hide();
-                        DN.ShowDialog();
-                        this.Close();
+                        MessageBox.Show("Ban chua nhap Email!!");
+                        this.ActiveControl = textBoxEmail;
                     }
-                    else MessageBox.Show("Tài khoản đã có người sử dụng!", "Thông báo");
-                }    
+                    else if (String.IsNullOrEmpty(textBoxUserName.Text))
+                    {
+                        MessageBox.Show("Ban chua nhap tai khoan!!");
+                        this.ActiveControl = textBoxUserName;
+                    }
+                    else if (String.IsNullOrEmpty(textBoxPassWord.Text))
+                    {
+                        MessageBox.Show("Ban chua nhap mat khau!");
+                        this.ActiveControl = textBoxPassWord;
+                    }
+                    else
+                    {
+                        User resUser = db.Users.SingleOrDefault(x => x.UserName == textBoxUserName.Text);
+                        if (resUser == null)
+                        {
+                            User newUser = TaoUser();
+                            db.Users.Add(newUser);
+                            db.SaveChanges();
+                            MessageBox.Show("Chúc mừng bạn đã đăng ký thành công!", "Thông báo");
+                            FormDangNhap DN = new FormDangNhap();
+                            this.Hide();
+                            DN.ShowDialog();
+                            this.Close();
+                        }
+                        else MessageBox.Show("Tài khoản đã có người sử dụng!", "Thông báo");
+                    }
+
             }
-            catch(Exception ex) { MessageBox.Show("" + ex.Message, "Thông báo"); }
+            catch (Exception ex) { MessageBox.Show("" + ex.Message, "Thông báo"); }
         }
         User TaoUser()
         {

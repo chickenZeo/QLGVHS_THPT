@@ -47,6 +47,14 @@ namespace QLGV_HS_THPT.Controller
         {
             this.Close();
         }
+
+        private void buttonTimKiem_Click(object sender, EventArgs e)
+        {
+            TimKiemGiaoVien tkgv = new TimKiemGiaoVien();
+            this.Hide();
+            tkgv.ShowDialog();
+
+        }
     }
     
 }
