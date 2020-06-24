@@ -126,12 +126,6 @@
     <Compile Include="View\FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FormGiangDay.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FormGiangDay.Designer.cs">
-      <DependentUpon>FormGiangDay.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\SuaGiaoVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,9 +203,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\FormGiangDay.resx">
-      <DependentUpon>FormGiangDay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\SuaGiaoVien.resx">
       <DependentUpon>SuaGiaoVien.cs</DependentUpon>

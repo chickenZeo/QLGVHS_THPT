@@ -79,37 +79,6 @@ C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.xml
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.xml
 C:\Thực tập nhóm\TTN Bài 2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete
-<<<<<<< HEAD
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe.config
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.pdb
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.dll
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.dll
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.xml
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.xml
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csprojAssemblyReference.cache
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormGv.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormMain.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormStudent.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Properties.Resources.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangKy.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangNhap.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaGiaoVien.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaTTHocSinh.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemGiaoVien.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemTTHocSinh.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemGiaoVien.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemHocSinh.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemLichGiangDay.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaGiaoVien.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaTTHocSinh.resources
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.GenerateResource.cache
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CoreCompileInputs.cache
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.exe
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.pdb
-E:\Kì 2 năm 3\Thực tập nhóm (bài hoản chỉnh)\QuanLyTHPT\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormGiangDay.resources
-=======
 E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe.config
 E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe
 E:\TTN\Bai2\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.pdb
@@ -166,4 +135,31 @@ G:\TTNhom\TTnhom\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.cs
 G:\TTNhom\TTnhom\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete
 G:\TTNhom\TTnhom\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.exe
 G:\TTNhom\TTnhom\QLGVHS_THPT\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.pdb
->>>>>>> 51ca2135e758a186d73d045579accdf0414575d0
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe.config
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.exe
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\QLGV_HS_THPT.pdb
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.dll
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.xml
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormGv.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormMain.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Controller.FormStudent.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangKy.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.FormDangNhap.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaGiaoVien.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.SuaTTHocSinh.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemGiaoVien.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.ThemTTHocSinh.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemGiaoVien.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemHocSinh.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.TimKiemLichGiangDay.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaGiaoVien.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.View.XoaTTHocSinh.resources
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.exe
+C:\Users\Admin\OneDrive\Desktop\QLGVHS_THPT-51ca2135e758a186d73d045579accdf0414575d0\QLGV_HS_THPT\QLGV_HS_THPT\obj\Debug\QLGV_HS_THPT.pdb
