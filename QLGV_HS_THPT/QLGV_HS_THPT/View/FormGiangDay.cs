@@ -38,7 +38,6 @@ namespace QLGV_HS_THPT.View
             txt_MaGV.Text = dtgr.CurrentRow.Cells[0].Value.ToString();
             txt_MaLop.Text = dtgr.CurrentRow.Cells[1].Value.ToString();
             dtime_NgayDay.Text = dtgr.CurrentRow.Cells[2].Value.ToString();
-
         }
 
         private void bt_Them_Click(object sender, EventArgs e)
@@ -70,44 +69,9 @@ namespace QLGV_HS_THPT.View
             con.Close();
             HienThi("select * from GiangDay");
         }
-      //////////////////  ----------------------
-        private void bt_Them_Click_1(object sender, EventArgs e)
-        {
-            con.Open();
-            SqlCommand cd = con.CreateCommand(); // Tu nguon cua sql tao 1 command
-            cd.CommandText = "insert into GiangDay values('" + txt_MaGV.Text + "',N'" + txt_MaLop.Text + "','" + dtime_NgayDay.Text + "' )";
-            cd.ExecuteNonQuery();
-            con.Close();
-            HienThi("select * from GiangDay");
-        }
-
-        private void bt_Sua_Click_1(object sender, EventArgs e)
-        {
-            con.Open();
-            SqlCommand cd = con.CreateCommand(); // Tu nguon cua sql tao 1 command
-            cd.CommandText = "update GiangDay set MaLop= N'" + txt_MaLop.Text + "', NgayDay = '" + dtime_NgayDay.Text + "' where MaGV ='" + txt_MaGV.Text + "'";
-            cd.ExecuteNonQuery();
-            con.Close();
-            HienThi("select * from GiangDay");
-        }
-
-        private void Bt_Xoa_Click_1(object sender, EventArgs e)
-        {
-            con.Open();
-            SqlCommand cd = con.CreateCommand();
-            cd.CommandText = "delete from GiangDay where MaGV = '" + txt_MaGV.Text + "'";
-            cd.ExecuteNonQuery();
-            con.Close();
-            HienThi("select * from GiangDay");
-        }
-
-        private void dtgr_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-            txt_MaGV.Text = dtgr.CurrentRow.Cells[0].Value.ToString();
-            txt_MaLop.Text = dtgr.CurrentRow.Cells[1].Value.ToString();
-            dtime_NgayDay.Text = dtgr.CurrentRow.Cells[2].Value.ToString();
-
-        }
     }
 }
+        
+    
+
 
